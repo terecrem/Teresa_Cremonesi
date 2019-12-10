@@ -4,13 +4,15 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio/blob/master/LICENSE)
  */
 
-@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap');
+    @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:500&display=swap'); 
+    @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:600&display=swap');   
+        
   @font-face {
    font-family: 'Inter-Regular';
    src: url('Inter-Regular.otf') format('truetype');
 }
-
-
+         
+ @import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
 body,
 
 {
@@ -50,6 +52,8 @@ html {
 	color: black;
    padding-left:20px;
   font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+
      
 }
 
@@ -93,9 +97,9 @@ color:#565655;
 
 .linkweb{
 	color:#565655;
-   font-family: 'Inter-Regular';
+   font-family: 'IBM Plex Sans', sans-serif;
     text-decoration: underline;
-      font-style: italic;
+ 
        font-size: 14px;
 
 }
@@ -104,7 +108,7 @@ color:#565655;
     text-decoration: underline;
 color:black;
  background-color: #ff4d00;
-     font-style: italic;
+
 
 }
 
