@@ -10,13 +10,24 @@
   @font-face {
    font-family: 'Inter-Regular';
    src: url('Inter-Regular.otf') format('truetype');
+      
 }
+
+
+
+
+@font-face {
+   font-family: 'IBMPlexSans-Medium';
+   src: url('IBMPlexSans-Medium.ttf') format('truetype');
+}
+
+
          
- @import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
 body,
 
 {
- background-color: #efefef;
+ background-color: #f2f1f3;
 
 }
 
@@ -34,6 +45,7 @@ html {
     text-transform: uppercase;
     margin-top:15px;
     color: blue;
+    text-align: center;
 }
 
 
@@ -41,8 +53,9 @@ html {
 	text-align: center;
 	color: #DDDDDD;
 	font-size: 14px;
-	letter-spacing: 0px;
+
 	margin-bottom: 30px;
+    margin-left: -20px;
   font-family: 'IBM Plex Sans', sans-serif;
   
        
@@ -53,6 +66,7 @@ html {
    padding-left:20px;
   font-family: 'IBM Plex Sans', sans-serif;
     font-weight: 500;
+    text-align: center;
 
      
 }
@@ -60,40 +74,29 @@ html {
 .titoloancora:hover{
 	
 background-color: #ff4d00;
-       
+text-align: center;
+ 
 }
 
 .titoletto{
 	color: black;
-    font-size: 16px;
+    font-size: 17px;
    font-family: 'IBM Plex Sans', sans-serif;
     font-weight: 500;
     
 }
 
-.titleprjdx
-
-{
-	text-align: right;
-	color: #DDDDDD;
-	font-size: 13px;
-	letter-spacing: 0px;
-	margin-bottom: 30px;
-    font-family: 'Inter-Regular';      
-}
-
-.descrizionedx{
-    margin-top: 30px;
-    margin-bottom: 60px;
-
+.year {
 	color: black;
-   font-family: 'Inter-Regular';
-       font-size: 14px;
-    text-align: right;
-color:#565655;
-        margin-right: -15px;
+    font-size: 14px;
+   font-family: 'Inter-Regular', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    }
 
-}
+
+
+
 
 .linkweb{
 	color:#565655;
@@ -117,8 +120,8 @@ color:black;
     margin-top: 30px;
   text-align: left;
    font-family: 'Inter-Regular';
-       font-size: 14px;
-    
+       font-size: 15px;
+ 
     margin-left: -15px;
 }
 
@@ -171,7 +174,7 @@ script {
  */
 
 #site-header {
-   background-color: #efefef;
+   background-color: #f2f1f3;
 	padding: 25px 20px;
 	margin-bottom: 40px;
 	border-bottom: 1px solid #e7e7e7;
@@ -238,7 +241,7 @@ script {
 
 body {
   font-family: 'Inter-Regular';
-       background-color: #efefef;
+       background-color: #f2f1f3;
  
 }
 
@@ -360,31 +363,6 @@ h5,
   background: #343a40;
 }
 
-.service-icon {
-  background-color: #fff;
-  color: #1D809F;
-  height: 7rem;
-  width: 7rem;
-  display: block;
-  line-height: 7.5rem;
-  font-size: 2.25rem;
-  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
-}
-
-.callout {
-  padding: 15rem 0;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-callout.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.callout h2 {
-  font-size: 3.5rem;
-  font-weight: 700;
-  display: block;
-  max-width: 30rem;
-}
 
 
 
@@ -397,7 +375,6 @@ h5,
   max-width: 530px;
 
 }
-
 
 
 
@@ -460,44 +437,19 @@ a:hover, a:focus, a:active {
   color: black;
 }
 
-.btn-primary {
-  background-color: black !important;
-  border-color: black !important;
-  color: #fff !important;
+.frecce {
+font-size: 19px;
+    font-style: normal;
+    font-weight: 500;
+
 }
 
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #155d74 !important;
-  border-color: #155d74 !important;
+
+.frecce:hover {
+ text-decoration: none;!important
 }
 
-.btn-secondary {
-  background-color: #ecb807 !important;
-  border-color: #ecb807 !important;
-  color: #fff !important;
-}
 
-.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
-  background-color: #ba9106 !important;
-  border-color: #ba9106 !important;
-}
-
-.btn-dark {
-  color: #fff !important;
-}
-
-.btn {
-  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.1);
-  font-weight: 700;
-}
-
-.bg-primary {
-  background-color: #1D809F !important;
-}
-
-.text-primary {
-  color: #1D809F !important;
-}
 
 .text-secondary {
   color: blue!important;
@@ -514,17 +466,5 @@ a:hover, a:focus, a:active {
     font-size: 11px;
 }
 
-
-
-
-@font-face {
-   font-family: 'IBMPlexSans-Medium';
-   src: url('IBMPlexSans-Medium.ttf') format('truetype');
-}
-
-@font-face {
-   font-family: 'Inter-Regular';
-   src: url('Inter-Regular.otf') format('truetype');
-}
 
 
