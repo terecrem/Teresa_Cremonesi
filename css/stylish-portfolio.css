@@ -201,6 +201,7 @@ script {
    
 }
 
+
 /**
  * 3.2 - Main Navigation
  */
@@ -403,6 +404,10 @@ font-family: 'Inter-Regular';
   .portfolio-item {
     max-width: none;
     margin: 0;
+  }
+    
+    .bimbo{
+   margin-top:60px;
   }
   
  
