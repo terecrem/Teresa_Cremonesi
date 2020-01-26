@@ -940,7 +940,30 @@ h1.entry-title a:hover {
 
     .more-link {
 font-size: 12px;
+        
+        
+    
     }
+    
+    .widget-title{
+font-size: 18px;
+        margin-left: 38px;
+
+    }
+    
+     li{
+font-size: 18px;
+        margin-left: 30px;
+
+    
+    }
+    
+        .widget-title2{
+font-size: 18px;
+        margin-left: 38px;
+
+    }
+
    
 }
 
